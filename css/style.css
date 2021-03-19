@@ -123,12 +123,14 @@ header{
 
   /*Requirement 10*/
   header{
-    /*Your code here again.*/  
+    flex-direction: row;
   }
 
   /*Requirement 10*/
   .nav_links{
-    /*Your code here again.*/  
+    flex-direction: row;
+
+
   }
 
   /*Requirement 11*/
