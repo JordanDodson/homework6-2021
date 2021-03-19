@@ -80,9 +80,35 @@ header{
   margin: 10px;
   width: 300px;
 }
-*/
+
 
 /*Requirement 9*/
+
+/*Keyframes for animation*/
+@-webkit-keyframes logo_grow{
+  /*Your code here.*/
+  0% {
+    width: 25px;
+    opacity: 0;
+  }
+  100% {
+    width: 420px;
+    opacity: 1;
+  }
+}
+
+@keyframes logo_grow{
+  /*Your code here.*/
+  0% {
+    width: 25px;
+    opacity: 0;
+  }
+  100% {
+   width: 420px;
+    opacity: 1;
+  }
+}
+
 #logo{
   animation-name: logo_grow;
   animation-duration: 15s;
@@ -92,17 +118,6 @@ header{
   -webkit-animation-iteration-count: 1;
 }
 
-/*Keyframes for animation*/
-@-webkit-keyframes logo_grow{
-  /*Your code here.*/
-  
-
-}
-
-@keyframes logo_grow{
-  /*Your code here.*/
-
-} 
 
 @media screen and (min-width: 850px){
 
