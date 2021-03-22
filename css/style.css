@@ -124,19 +124,21 @@ header{
   /*Requirement 10*/
   header{
     flex-direction: row;
+    justify-content: space-between;
   }
 
   /*Requirement 10*/
   .nav_links{
     flex-direction: row;
+    justify-content: space-between;
 
 
   }
 
   /*Requirement 11*/
   .package {
-    /*Your code here again.*/
-  } 
+    flex-basis: 230px;
+  }
 }
 
 /*Requirement 12*/
