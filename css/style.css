@@ -150,11 +150,16 @@ header{
 /*Add media query to handle reduced-motion*/
 /*Your code here again.*/ 
 
-@media
+@media (prefers-reduced-motion) {
+  #logo {
+    animation: none;
+  }
+
+}
 
 
 
-@media print { 
+@media print {
 
   /*Requirement 13*/
 
